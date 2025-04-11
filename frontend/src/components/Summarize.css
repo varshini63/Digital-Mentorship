@@ -1,0 +1,137 @@
+/* This CSS targets the Tailwind classes used in your component */
+
+/* Container */
+.max-w-7xl.mx-auto.p-6.bg-white.rounded-lg.shadow-md {
+    max-width: 80rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .text-2xl.font-bold.mb-6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Tab buttons */
+  .flex.mb-6 button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .flex.mb-6 button.mr-2 {
+    margin-right: 0.5rem;
+  }
+  
+  .bg-blue-500.text-white {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f3f4f6;
+  }
+  
+  /* Text area */
+  .w-full.h-96.p-4.border.rounded-lg {
+    width: 100%;
+    height: 24rem;
+    padding: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.625;
+    resize: none;
+  }
+  
+  .w-full.h-96.p-4.border.rounded-lg:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+  
+  /* Submit button */
+  .mt-4.px-6.py-2.rounded-lg {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .bg-blue-500.text-white.hover\:bg-blue-600:hover {
+    background-color: #2563eb;
+  }
+  
+  .bg-gray-300.cursor-not-allowed {
+    background-color: #d1d5db;
+    cursor: not-allowed;
+  }
+  
+  /* PDF upload area */
+  .border-2.border-dashed.rounded-lg.p-6.text-center {
+    border: 2px dashed #d1d5db;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .cursor-pointer.block {
+    cursor: pointer;
+    display: block;
+  }
+  
+  .text-4xl.mb-2.block {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-sm.text-gray-500 {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .mt-2.text-sm.text-gray-600 {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  /* Error message */
+  .mt-4.p-4.bg-red-50.text-red-600.rounded-lg {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #fef2f2;
+    color: #dc2626;
+    border-radius: 0.5rem;
+  }
+  
+  /* Summary display */
+  .mt-6.p-6.bg-gray-50.rounded-lg {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: #f9fafb;
+    border-radius: 0.5rem;
+    margin-left: 16rem; /* Keep the left margin */
+  }
+  
+  .font-semibold.mb-4.text-lg {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+  }
+  
+  .whitespace-pre-wrap.text-base.leading-relaxed {
+    white-space: pre-wrap;
+    font-size: 1rem;
+    line-height: 1.625;
+  }

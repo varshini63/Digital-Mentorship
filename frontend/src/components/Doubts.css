@@ -1,0 +1,142 @@
+/* Doubts.css */
+
+/* Container styling */
+.doubts-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  /* Heading */
+  .doubts-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1f2937;
+  }
+  
+  /* Form */
+  .doubts-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Textarea */
+  .doubts-textarea {
+    width: 100%;
+    height: 10rem;
+    padding: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.625;
+    resize: vertical;
+  }
+  
+  .doubts-textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+  
+  /* File input */
+  .doubts-file-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    background-color: #f9fafb;
+    cursor: pointer;
+  }
+  
+  /* Button */
+  .doubts-submit-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .doubts-submit-button:hover:not(:disabled) {
+    background-color: #2563eb;
+  }
+  
+  .doubts-submit-button:disabled {
+    background-color: #d1d5db;
+    cursor: not-allowed;
+  }
+  
+  /* Response container */
+  .doubts-response {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: #ecfdf5;
+    color: #047857;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    font-size: 1rem;
+    line-height: 1.625;
+  }
+  
+  /* Error container */
+  .doubts-error {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #fef2f2;
+    color: #dc2626;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Strong text */
+  .doubts-response strong,
+  .doubts-error strong {
+    font-weight: 600;
+    margin-right: 0.25rem;
+  }
+  
+  /* File input label */
+  .file-input-label {
+    display: block;
+    border: 2px dashed #d1d5db;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .file-input-label:hover {
+    border-color: #9ca3af;
+  }
+  
+  .file-input-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #6b7280;
+  }
+  
+  .file-input-text {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  /* When file is selected */
+  .file-selected {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #4b5563;
+  }

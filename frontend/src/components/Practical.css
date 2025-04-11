@@ -1,0 +1,147 @@
+.practical-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.practical-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.practical-container h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
+.selection {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.selection h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.selection input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.selection input:focus {
+  outline: none;
+  border-color: #3a7bd5;
+  box-shadow: 0 0 0 2px rgba(58, 123, 213, 0.2);
+}
+
+.selection button {
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.selection button:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(58, 123, 213, 0.3);
+}
+
+.selection button:disabled {
+  background: linear-gradient(to right, #a9c1e8, #99e4f2);
+  cursor: not-allowed;
+}
+
+.guidelines {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.guidelines h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.guidelines h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
+.guidelines ul {
+  padding-left: 20px;
+}
+
+.guidelines li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.loading-message {
+  text-align: center;
+  color: #3a7bd5;
+  font-style: italic;
+  margin: 20px 0;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .practical-container {
+    padding: 15px;
+  }
+  
+  .selection {
+    padding: 20px;
+  }
+  
+  .selection button {
+    margin: 5px 0;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  
+  .guidelines {
+    padding: 20px;
+  }
+}

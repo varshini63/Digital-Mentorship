@@ -1,0 +1,140 @@
+.material-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.material-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.material-container h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
+.selection {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.selection h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.syllabus-button,
+.medium-button,
+.standard-button,
+.subject-button,
+.back-button {
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.standard-button {
+  min-width: 60px;
+}
+
+.back-button {
+  background: #f0f2f5;
+  color: #333;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.syllabus-button:hover,
+.medium-button:hover,
+.standard-button:hover,
+.subject-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(58, 123, 213, 0.3);
+}
+
+.back-button:hover {
+  background: #e4e6e9;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.material-item {
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-left: 4px solid #3a7bd5;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.material-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.material-item h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.download-link {
+  display: inline-block;
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.download-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 10px rgba(58, 123, 213, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .material-container {
+    padding: 15px;
+  }
+  
+  .syllabus-button,
+  .medium-button,
+  .standard-button,
+  .subject-button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+  
+  .selection {
+    padding: 20px;
+  }
+  
+  .standard-button {
+    min-width: 50px;
+  }
+}

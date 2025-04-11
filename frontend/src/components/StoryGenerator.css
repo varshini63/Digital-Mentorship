@@ -1,0 +1,100 @@
+/* Container */
+.max-w-7xl.mx-auto.p-6.bg-white.rounded-lg.shadow-md {
+    max-width: 80rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem; /* Increased padding */
+    margin: 0.75rem auto; /* Added vertical margin */
+}
+
+.mt-6.p-6.bg-gray-50.rounded-lg {
+    margin-top: 2.5rem;
+    padding: 2rem;
+    background-color: #f9fafb;
+    border-radius: 0.5rem;
+    margin-left: auto; /* Change from 16rem to auto */
+    margin-right: auto; /* Add right margin auto */
+    max-width: 90%; /* Limit width to create centered look */
+}
+/* Heading */
+.text-2xl.font-bold.mb-6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem; /* Increased margin */
+}
+
+/* Tab buttons */
+.flex.mb-6 {
+    margin-bottom: 2rem; /* Increased margin */
+    gap: 1rem; /* Add gap between flex items */
+}
+
+.flex.mb-6 button {
+    padding: 0.75rem 1.25rem; /* Increased padding */
+    border-radius: 0.5rem;
+}
+
+.flex.mb-6 button.mr-2 {
+    margin-right: 1rem; /* Increased margin */
+}
+
+/* Select dropdown */
+.w-full.p-2.border.rounded-lg {
+    width: 100%;
+    padding: 0.75rem; /* Increased padding */
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem; /* Added bottom margin */
+}
+
+/* Text area */
+.w-full.h-96.p-4.border.rounded-lg {
+    width: 100%;
+    height: 24rem;
+    padding: 1.5rem; /* Increased padding */
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.75; /* Increased line height */
+    resize: none;
+    margin-bottom: 1.5rem; /* Added bottom margin */
+}
+
+/* Submit button */
+.mt-4.px-6.py-2.rounded-lg {
+    margin-top: 2rem; /* Increased margin */
+    padding: 0.75rem 2rem; /* Increased padding */
+    border-radius: 0.5rem;
+}
+
+/* Error message */
+.mt-4.p-4.bg-red-50.text-red-600.rounded-lg {
+    margin-top: 2rem; /* Increased margin */
+    padding: 1.5rem; /* Increased padding */
+    background-color: #fef2f2;
+    color: #dc2626;
+    border-radius: 0.5rem;
+}
+
+/* Summary display */
+.mt-6.p-6.bg-gray-50.rounded-lg {
+    margin-top: 2.5rem; /* Increased margin */
+    padding: 2rem; /* Increased padding */
+    background-color: #f9fafb;
+    border-radius: 0.5rem;
+    margin-left: 16rem;
+}
+
+.font-semibold.mb-4.text-lg {
+    font-weight: 600;
+    margin-bottom: 1.5rem; /* Increased margin */
+    font-size: 1.125rem;
+}
+
+.whitespace-pre-wrap.text-base.leading-relaxed {
+    white-space: pre-wrap;
+    font-size: 1rem;
+    line-height: 1.8; /* Increased line height */
+}
